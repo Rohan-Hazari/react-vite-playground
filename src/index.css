@@ -259,8 +259,11 @@ input[type='text'] {
 }
 input[type='color'] {
   height: 100%;
-  background-color: var(--white);
-  border-color: var(--white);
+  background-color: var(--backgroundColor);
+  border-color: var(--backgroundColor);
+  padding: 0;
+  margin: 0 0.5rem 0 0;
+  border-width: 0;
 }
 .container .btn {
   border-radius: 0;
@@ -274,6 +277,9 @@ input[type='color'] {
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
     align-items: center;
+  }
+  .color-form {
+    height:40px;
   }
   
 }
