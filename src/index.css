@@ -246,7 +246,6 @@ button:focus-visible {
   padding: 2rem;
   display: grid;
   row-gap: 1.5rem;
-  height: 160px;
 }
 
 .color-form {
@@ -276,9 +275,7 @@ input[type='color'] {
     column-gap: 2rem;
     align-items: center;
   }
-  .color-form {
-    height: 40px;
-  }
+  
 }
 
 .colors {
