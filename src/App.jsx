@@ -1,9 +1,11 @@
-import "./App.css";
+import Form from "./component/Form";
+import Palette from "./component/Palette";
 
 function App() {
   return (
     <main>
-      <h1>Palette Generator</h1>
+      <Form />
+      <Palette />
     </main>
   );
 }
