@@ -1,7 +1,7 @@
 import React from "react";
 
 const SingleColor = () => {
-  return <section>SingleColor</section>;
+  return <article>SingleColor</article>;
 };
 
 export default SingleColor;
