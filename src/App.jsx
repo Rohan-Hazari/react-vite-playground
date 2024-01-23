@@ -15,7 +15,7 @@ function App() {
   return (
     <main>
       <Form addColor={addColor} />
-      <Palette />
+      <Palette colors={colors} />
     </main>
   );
 }
